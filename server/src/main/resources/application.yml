@@ -1,0 +1,17 @@
+server:
+  port: 13281
+
+netty:
+  port: 13287
+
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: chat-group-producer
+    topic: chat-group-topic
+nacos:
+  discovery:
+    server-addr: 127.0.0.1:8848
+spring:
+  application:
+    name: netty-server
